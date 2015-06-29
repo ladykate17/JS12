@@ -1,0 +1,33 @@
+.map {
+	width: 100%;
+}
+
+.container{
+	position: relative;
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.marker {
+	position: absolute;
+	color: red;
+	padding: 3px;
+}
+
+.marker:hover .note {
+	visibility: visible;
+}
+
+.note {
+	position: absolute;
+	font-size: 0.8em;
+	left: 20px;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	color: #333;
+	background-color: #ddd;
+	visibility: hidden;
+	width: 130px;
+}
